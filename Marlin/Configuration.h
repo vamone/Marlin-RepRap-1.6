@@ -1915,6 +1915,8 @@
 #define ST7920_DELAY_2 DELAY_NS(250) 
 #define ST7920_DELAY_3 DELAY_NS(250)
 
+#define REVERSE_MENU_DIRECTION 1
+
 //
 // ReprapWorld Graphical LCD
 // https://reprapworld.com/?products_details&products_id/1218
