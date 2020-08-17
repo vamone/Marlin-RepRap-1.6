@@ -426,7 +426,7 @@
 #define TEMP_SENSOR_5 0
 #define TEMP_SENSOR_6 0
 #define TEMP_SENSOR_7 0
-#define TEMP_SENSOR_BED 0
+#define TEMP_SENSOR_BED 1 //Valentine
 #define TEMP_SENSOR_PROBE 0
 #define TEMP_SENSOR_CHAMBER 0
 
@@ -750,7 +750,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
  //Valentine
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, 92.94 } //(old)Z4000
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, 423 } //(old)Z4000
 
 /**
  * Default Max Feed Rate (mm/s)
